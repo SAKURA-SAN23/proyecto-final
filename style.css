@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --primary-color: #CE9C91;
+    --secondary-color: #ce9c913f;
+    --text-title-color: #A7776B;
+    --text-content-color: #000000;
+    --text: Roboto
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--text);
+    color: var(--text-content-color);
+}
+
+.a4{
+    width: 209mm;
+    height: 296mm;
+    border: solid 1px var(--primary-color);
+    margin: auto;
+}
+
+.marg{
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 10mm;
+}
+
+.cv_content{
+    height: 276mm;
+    width: 100%;
+    display: flex;
+}
+
+.izq{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.datos_pers{
+    height: 96%;
+    width: 87%;
+    margin: auto;
+    border-radius: 150px 150px 30px 30px;
+    background-color: var(--secondary-color);
+}
+
+.foto{
+    border-radius: 150px;
+    height: 305px;
+    width: 100%;
+}
+
+.datos{
+    padding: 25px;
+    text-align: center;
+}
+
+.datos h1{
+    color: var(--text-title-color);
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.datos h2{
+    color: var(--text-content-color);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 2px;
+}
+
+.der{
+    height: 100%;
+    width: 55%;
+    text-align: center;
+}
+
+.apellido{
+    color: var(--text-title-color);
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.nombre{
+    color: var(--text-title-color);
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+hr{
+    border-color: var(--primary-color);
+    width: 80%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.exp h1{
+    color: var(--text-title-color);
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.exp h2{
+    color: var(--text-content-color);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.exp h3{
+    color: var(--text-content-color);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 8px;
+}
+
+.exp p{
+    color: var(--text-content-color);
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 8px;
+    padding-right: 25px;
+}
